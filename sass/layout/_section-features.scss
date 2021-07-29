@@ -1,0 +1,32 @@
+.features {
+  padding-top: 94px;
+}
+.features__list {
+  display: flex;
+}
+.features__title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features__text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.features__item:not(:last-child) {
+  margin-right: var(--margin-content);
+}
+.features__thumb {
+  @include centeredFlex;  
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

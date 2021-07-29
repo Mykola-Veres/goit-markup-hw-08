@@ -1,0 +1,11 @@
+@mixin centeredFlex ($type:flex, $content:center) {
+  display: $type;
+  align-items: center;
+  justify-content: $content;  
+}
+
+@mixin font ($fs:14px, $lh:24px) {
+  font-weight: 700;
+  font-size: $fs;  
+  line-height: decimal-round($lh/$fs, 2);
+}
