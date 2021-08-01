@@ -1,7 +1,14 @@
 body {
+  position: relative;
+  overflow-x: hidden;  
   font-weight: 400;
   font-size: 14px;
   font-family: var(--font-primary);
   background-color: var(--secondary-color-white);
   color: var(--primary-text-color);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
