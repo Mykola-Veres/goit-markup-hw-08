@@ -477,6 +477,12 @@ img {
   pointer-events: auto;
 }
 
+.mobile-menu {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
