@@ -1243,6 +1243,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 60px;
   }
   .address__list {
     display: flex;

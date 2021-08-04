@@ -105,7 +105,8 @@
   } 
   .footer__logo-box {
     @include centeredFlex;   
-    flex-direction: column;  
+    flex-direction: column;
+    margin-bottom: 60px
   }
   .address__list {
     @include centeredFlex;    
