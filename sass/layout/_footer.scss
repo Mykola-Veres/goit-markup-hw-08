@@ -61,7 +61,8 @@
   }
   .footer__logo-box {
     @include centeredFlex;   
-    flex-direction: column;  
+    flex-direction: column;    
+    margin-bottom: 60px;    
   }
   .address__list {
     @include centeredFlex;    
@@ -101,10 +102,7 @@
     @include centeredFlex;
     margin-bottom: 60px;    
     flex-direction: column;    
-  }
-  .address {
-    margin-bottom: 60px;
-  }
+  } 
   .footer__logo-box {
     @include centeredFlex;   
     flex-direction: column;  
@@ -112,8 +110,7 @@
   .address__list {
     @include centeredFlex;    
     flex-direction: column;    
-  } 
-
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer__flex-conteiner {
@@ -130,7 +127,6 @@
     display: flex;
   }
 }
-
 .footer__join {
   font-weight: 700;
   line-height: 16px;
@@ -140,7 +136,6 @@
   font-style: normal;
   margin: 0 0 20px 0;
 }
-
 .form__footer-label {
   margin: 0 0 20px 0;
   display: block;

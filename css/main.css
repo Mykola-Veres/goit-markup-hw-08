@@ -579,12 +579,6 @@ img {
   color: #2196F3;
 }
 
-.mobile-menu__list {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 200px;
-}
-
 .mobile-menu__social-item {
   position: relative;
 }
@@ -602,6 +596,13 @@ img {
 
 .mobile-menu__social-item:not(:last-child) {
   margin-right: 20px;
+}
+
+.mobile-menu__box {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 48px;
+  width: 100%;
 }
 
 .header {
@@ -1183,6 +1184,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 60px;
   }
   .address__list {
     display: flex;
@@ -1235,9 +1237,6 @@ img {
     justify-content: center;
     margin-bottom: 60px;
     flex-direction: column;
-  }
-  .address {
-    margin-bottom: 60px;
   }
   .footer__logo-box {
     display: flex;

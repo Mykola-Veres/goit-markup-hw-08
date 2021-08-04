@@ -144,11 +144,11 @@
   letter-spacing: 0.02em;
   color: #2196F3;
 }
-.mobile-menu__list {
-  display: flex;
-  flex-direction: column;   
-  margin-bottom: 200px;  
-}
+// .mobile-menu__list {
+//   display: flex;
+//   flex-direction: column;   
+  // margin-bottom: 200px;  
+// }
 .mobile-menu__social-item{
   position: relative;
 }
@@ -165,3 +165,17 @@
 .mobile-menu__social-item:not(:last-child) {
   margin-right: 20px;
 }
+.mobile-menu__box {
+  position: absolute;
+  // left: 0px;
+  bottom: 0;
+  padding-bottom: 48px;
+  width: 100%;
+  // padding-left: 40px;
+
+}
+// .mobile-menu__list-contacts {
+//   position: absolute;
+//   left: 0px;
+//   bottom: 0;
+// }
